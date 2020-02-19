@@ -10,7 +10,12 @@ int main(void) {
 		Google rand() and srand()
 	*/
 	//////////Your code here//////////
-	int secret = 77;
+	int userRange;
+        int n = 0;
+        printf ( "type your range");
+        scanf ( "%d" , &userRange );
+        srand (time (n));
+        int secret  = rand() % userRange;
 
 	//////////End of the code/////////
 
